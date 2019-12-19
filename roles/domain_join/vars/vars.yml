@@ -1,0 +1,9 @@
+---
+
+realm_domain: west.msk
+# It is important that krb5 domain is in ALL CAPITALS
+krb5_default_realm: WEST.MSK
+realm_ad_ou: OU=Linux,OU=Servers,DC=west,DC=msk
+ntpserver: 10.53.1.2
+admin_domain_group: linuxserveradministrators
+domain_allow_users: adm.leushina
